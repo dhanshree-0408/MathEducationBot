@@ -37,7 +37,7 @@ Key design principles:
 
 
 # Core Features
-1️⃣ Multimodal Query Processing
+1. Multimodal Query Processing
 
 The system detects input type and routes accordingly:
 | Input Type | Processing Pipeline              |
@@ -47,7 +47,7 @@ The system detects input type and routes accordingly:
 | URL        | HTML extraction → Cleaning → LLM |
 | Audio      | SpeechRecognition → Text → LLM   |
 
-2️⃣ Context-Aware Multi-Turn Dialogue
+2. Context-Aware Multi-Turn Dialogue
 
 Implemented using:
 ConversationBufferMemory (LangChain)
@@ -60,7 +60,7 @@ Example:
 
 The system retains context and continues logically.
 
-3️⃣ Grade-Level & Role Personalization
+3. Grade-Level & Role Personalization
 
 Responses adapt dynamically based on:
 - Selected grade (1–12)
@@ -71,7 +71,7 @@ This influences:
 - Language complexity
 - Type of examples used
 
-4️⃣ Observability & Monitoring
+4. Observability & Monitoring
 
 Integrated with LangSmith for:
 - Trace analysis
