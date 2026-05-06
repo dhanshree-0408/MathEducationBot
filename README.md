@@ -1,6 +1,6 @@
 # MathEdu AI
 
-A recruiter-friendly multimodal math tutor built with FastAPI, Streamlit, OpenAI, OCR, URL extraction, audio transcription, and persistent history.
+A multimodal math tutor built with FastAPI, Streamlit, OpenAI, OCR, URL extraction, audio transcription, and persistent history.
 
 ## Features
 - Text, image, URL, and audio query support
